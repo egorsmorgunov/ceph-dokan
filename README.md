@@ -40,9 +40,11 @@ How to compile
 
 Download & install TDM-GCC from http://sourceforge.net/projects/tdm-gcc/files/TDM-GCC%20Installer/tdm-gcc-5.1.0-3.exe/download
 
-Download Boost Libs in C:\boost_1_63_0
+Download & extract Boost Libs in C:\boost_1_63_0 from https://sourceforge.net/projects/boost/files/boost/1.63.0/boost_1_63_0.zip
 
 Compile boost system if you want (libboost_system-mgw51-mt-1_63.a precompiled in repo, no need to compile):
+
+cd C:\boost_1_63_0\
 
 bootstrap.bat gcc
 
